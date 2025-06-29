@@ -51,3 +51,31 @@ nav li a {
   font-weight: 800;
   font-size: 45px;
 }
+
+/* * navbar end */
+
+/* * banner style start */
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 38px 0 200px;
+}
+.banner-greet {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.banner-description{
+  font-size: 18px;
+  color: #757575;
+}
+
+.banner-profile-pic{
+  width: 584px;
+}
