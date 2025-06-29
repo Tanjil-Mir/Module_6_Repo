@@ -1,23 +1,41 @@
-
 .open-sans-normal {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-
-  /* *Shared Color */
-.text-primary{
-    color: #FD6E0A;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
-  /* *Nav style start */
-
-nav{
-    display: flex;
+/* *Shared Color */
+.text-primary {
+  color: #fd6e0a;
 }
-.nav-title{
-    font-weight: 800;
-    font-size: 45px;
+.dark-2 {
+  color: #474747;
+}
+/* *Nav style start */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
 }
