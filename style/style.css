@@ -12,12 +12,12 @@
 .dark-2 {
   color: #474747;
 }
-.btn-primary{
+.btn-primary {
   color: white;
   background-color: #fd6e0a;
   font-size: 20px;
   border-radius: 5px;
-  border-style: none;
+  border: none;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   padding: 18px 36px;
@@ -34,6 +34,7 @@ nav {
 
 nav ul {
   display: flex;
+  align-items: center;
 }
 
 nav ul li {
