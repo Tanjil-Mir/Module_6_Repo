@@ -114,14 +114,27 @@ nav li a {
 /* *banner style end */
 
 /* ! main tag style  */
-main{
+main {
   max-width: 1140px;
+  margin: 0 auto;
 }
 
 /*  About Style Start */
-
-.about{
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+.about {
   border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
 }
 
+.about-bg{
+  background-color: #ffffff;
+}
+.item-description {
+  font-weight: 700;
+}
 /*  About Style End */
