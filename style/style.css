@@ -6,7 +6,9 @@
 }
 
 /* *Shared Style */
-
+body{
+  cursor: all-scroll;
+}
 .secondary-bg {
   background-color: #fff8f3;
 }
