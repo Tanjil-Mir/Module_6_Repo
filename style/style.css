@@ -5,7 +5,12 @@
   font-variation-settings: "wdth" 100;
 }
 
-/* *Shared Color */
+/* *Shared Style */
+
+.secondary-bg {
+  background-color: #fff8f3;
+}
+
 .text-primary {
   color: #fd6e0a;
 }
@@ -23,13 +28,29 @@
   padding: 18px 36px;
 }
 
-/* # header style  */
+.section-title {
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+}
 
-.header{
-  background-image: url('../images/developer.png'), url('../images/header_bg.png');
+.section-description {
+  font-size: 18px;
+  color: #757575;
+}
+
+/* *Shared style End */
+
+/* # Header Style Start  */
+
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 }
+
+/* # Header Style End */
 
 /* *Nav style start */
 
@@ -64,7 +85,7 @@ nav li a {
 
 /* * banner style start */
 
-.banner{
+.banner {
   display: flex;
   justify-content: space-between;
   margin: 0 38px 0 200px;
@@ -73,17 +94,34 @@ nav li a {
   font-weight: 600;
   font-size: 45px;
 }
-
+.banner-container {
+  max-width: 584px;
+}
 .banner-title {
   font-size: 85px;
   font-weight: 700;
 }
 
-.banner-description{
+.banner-description {
   font-size: 18px;
   color: #757575;
 }
 
-.banner-profile-pic{
+.banner-profile-pic {
   width: 584px;
 }
+
+/* *banner style end */
+
+/* ! main tag style  */
+main{
+  max-width: 1140px;
+}
+
+/*  About Style Start */
+
+.about{
+  border-radius: 10px;
+}
+
+/*  About Style End */
