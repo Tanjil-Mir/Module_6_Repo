@@ -200,10 +200,24 @@ main section {
   color: #474747;
   margin-bottom: -10px;
 }
-.resume hr{
+.resume hr {
   margin: 30px 0;
 }
-.resume-btn{
+.resume-btn {
   margin-top: 30px;
 }
 /* * resume section styles End */
+
+/* # Footer section Start */
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 117px;
+}
+.footer-column{
+  width: 50%;
+}
+.footer-img a > img{
+  margin-right: 24px;
+}
+/* # Footer section End */
