@@ -214,10 +214,21 @@ footer {
   display: flex;
   gap: 117px;
 }
-.footer-column{
+.footer-column {
   width: 50%;
 }
-.footer-img a > img{
+.footer-img a > img {
   margin-right: 24px;
+}
+footer input[type="text"], footer input[type="email"], footer textarea {
+  height: 64px;
+  border-radius: 5px;
+  color: #757575;
+  font-size: 20px;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px 30px;
+  margin-bottom: 24px;
 }
 /* # Footer section End */
