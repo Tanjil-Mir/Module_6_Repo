@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <style>
+      body {
+        background-color: antiquewhite;
+      }
+      .calendar {
+        font-size: 2rem;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: 100px repeat(5, 70px);
+        gap: 20px 20px;
+      }
+      .date,
+      .day {
+        background-color: rgb(255, 177, 87);
+        border-radius: 10px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      .day {
+        background-color: rgb(183, 231, 99);
+        font-size: 2rem;
+      }
+      .heading {
+        display: grid;
+        justify-content: center;
+      }
+      h1 {
+        text-align: center;
+        background-color: rgb(123, 255, 248);
+        padding: 1rem;
+        border: 10px solid rgb(20, 3, 255);
+        border-radius: 30px;
+        /* width: 50%; */
+      }
+      /* *Grid container */
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 100vh; */
+        margin: 50px;
+      }
+      .box {
+        background-color: limegreen;
+        border: 5px solid darkred;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 200px);
+        grid-template-rows: repeat(2, 200px);
+        gap: 1rem;
+        grid-template-areas:
+          "box-1 box-2 box-2 box-3 "
+          "box-1 box-4 box-5 box-5";
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>My Google Calendar</h1>
+    </div>
+    <!-- * Main calendar -->
+    <div class="calendar">
+      <div class="day">S</div>
+      <div class="day">M</div>
+      <div class="day">T</div>
+      <div class="day">W</div>
+      <div class="day">T</div>
+      <div class="day">F</div>
+      <div class="day">S</div>
+      <div class="date">29</div>
+      <div class="date">30</div>
+      <div class="date">31</div>
+      <div class="date">1</div>
+      <div class="date">2</div>
+      <div class="date">3</div>
+      <div class="date">4</div>
+      <div class="date">5</div>
+      <div class="date">6</div>
+      <div class="date">7</div>
+      <div class="date">8</div>
+      <div class="date">9</div>
+      <div class="date">10</div>
+      <div class="date">11</div>
+      <div class="date">12</div>
+      <div class="date">13</div>
+      <div class="date">14</div>
+      <div class="date">15</div>
+      <div class="date">16</div>
+      <div class="date">17</div>
+      <div class="date">18</div>
+      <div class="date">19</div>
+      <div class="date">20</div>
+      <div class="date">21</div>
+      <div class="date">22</div>
+      <div class="date">23</div>
+      <div class="date">24</div>
+      <div class="date">25</div>
+      <div class="date">26</div>
+      <div class="date">27</div>
+      <div class="date">28</div>
+      <div class="date">29</div>
+      <div class="date">30</div>
+      <div class="date">1</div>
+      <div class="date">2</div>
+    </div>
+    <!-- Grid layout -->
+    <h1>BENTO Grid Template</h1>
+    <div class="container">
+      <div class="grid-container">
+        <div class="box" style="grid-area: box-1"></div>
+        <div class="box" style="grid-area: box-2"></div>
+        <div class="box" style="grid-area: box-3"></div>
+        <div class="box" style="grid-area: box-4"></div>
+        <div class="box" style="grid-area: box-5"></div>
+      </div>
+    </div>
+  </body>
+</html>

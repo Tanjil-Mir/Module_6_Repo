@@ -56,3 +56,24 @@ li:nth-child(4) {
 li:nth-child(2n) {
   background-color: wheat; /* ?this is for Even numbers */
 }
+
+p {
+  font-size: 1.5rem;
+}
+p::first-letter {
+  font-size: 4rem;
+  color: brown;
+}
+.para::first-line {
+  background-color: lightseagreen;
+}
+p::first-line {
+  background-color: darkorange;
+}
+input::placeholder {
+  color: dodgerblue;
+}
+
+::selection {
+  background-color: aquamarine;
+}
